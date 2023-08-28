@@ -1,0 +1,26 @@
+{
+  level: 'warn',
+  message: 'HTTP GET /400',
+  metadata: {
+    meta: {
+      req: {
+        url: '/400',
+        headers: {
+          'user-agent': 'PostmanRuntime/7.32.3',
+          accept: '*/*',
+          'postman-token': '3c75bd74-7666-4261-9eeb-da4a25f66276',
+          host: 'localhost:4000',
+          'accept-encoding': 'gzip, deflate, br',
+          connection: 'keep-alive'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/400',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 1
+    },
+    timestamp: '2023-08-28T06:39:56.024Z'
+  }
+}

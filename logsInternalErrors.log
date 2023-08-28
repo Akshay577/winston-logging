@@ -1,0 +1,12 @@
+2023-08-28T06:36:12.212Z error: uncaughtException: logger.info is not a function
+TypeError: logger.info is not a function
+    at /Users/akshaynadig/Desktop/test/winston-logging/app.js:38:12
+    at Layer.handle [as handle_request] (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/index.js:280:10)
+    at /Users/akshaynadig/Desktop/test/winston-logging/node_modules/express-winston/index.js:429:9
+    at Layer.handle [as handle_request] (/Users/akshaynadig/Desktop/test/winston-logging/node_modules/express/lib/router/layer.js:95:5)
